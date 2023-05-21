@@ -55,7 +55,7 @@ export class HomeComponent implements OnInit {
 
   submit() {
     if (this.empForm.valid) {
-      this.empService.addEmp(this.empForm.value).then((res) => {
+      this.empService.addEmp(this.empForm.value).then(() => {
       })
       this.dialog.closeAll()
     }
