@@ -1,0 +1,75 @@
+/* table css */
+mat-paginator {
+    position: sticky;
+    bottom: 0px;
+    width: 100%;
+}
+
+.table {
+    min-height: 60vh;
+}
+
+.table-container {
+    position: relative;
+    width: 70%;
+    margin: auto;
+    height: 70vh;
+    overflow-y: scroll;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+}
+
+table td {
+    text-align: center;
+}
+
+th.mat-header-cell {
+    text-align: center;
+    font-weight: 500;
+    font-size: large;
+    color: #000;
+}
+
+/* heading css */
+.head {
+    padding: 10px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.head h1 {
+    margin: 0px;
+}
+
+/* dialog css */
+mat-form-field {
+    width: 100%;
+}
+
+.mat-dialog-actions {
+    justify-content: space-around;
+}
+
+/* scroll bar css */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #aaa;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
